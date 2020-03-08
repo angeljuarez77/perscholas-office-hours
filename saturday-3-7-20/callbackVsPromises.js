@@ -27,9 +27,9 @@ function outside() {
 // outside();
 
 // asynchronous js and promises
-// $.ajax({
-//   url: 'https://swapi.co/api/people/1',
-// });
+$.ajax({
+  url: 'https://swapi.co/api/people/1',
+});
 
 let promise = $.ajax({
   url: 'https://swapi.co/api/people/1',
@@ -41,4 +41,5 @@ promise.then((data) => {
 })
 .catch((e) => console.error(e));
 
+// in our browser this console log is shown first
 console.log('my console log');
