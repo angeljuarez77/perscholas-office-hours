@@ -1,0 +1,23 @@
+function sevenPlusThree(anotherFunction) {
+  return anotherFunction() + 7;
+}
+
+function add() {
+  return 1 + 2;
+}
+
+// the callback is the function passed as an argument
+// let number = sevenPlusThree(add);
+// console.log(number);
+
+// nested function
+function outside() {
+
+  function inside() {
+    console.log('from inside');
+  }
+
+  inside();
+}
+
+outside();
