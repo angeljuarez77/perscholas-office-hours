@@ -1,0 +1,11 @@
+.App {
+  margin: 0 auto;
+}
+
+.box {
+  margin: 30px;
+  border: solid 1px red;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
