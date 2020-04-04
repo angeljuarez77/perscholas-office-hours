@@ -28,6 +28,7 @@ class App extends React.Component {
         console.log(responses[i].data, 'from array');
       }
     }).catch(e => console.error(e));
+    // https://stackoverflow.com/questions/52669596/promise-all-with-axios
   }
   render() {
     return (
